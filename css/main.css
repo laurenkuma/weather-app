@@ -20,19 +20,19 @@
   font-size: 350px;
 }
 .city {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   font-variant: small-caps;
   margin-left: 70px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .condi {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 70px;
 }
 .winds {
-  font-size: 30px;
-  margin-top: 25px;
+  font-size: 25px;
+  margin-top: 30px;
 }
 
 .clear {
