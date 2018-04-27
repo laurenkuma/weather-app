@@ -1,0 +1,100 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.sans-serif {
+  font-family: Agipo;
+}
+.text {
+  color: pink;
+}
+/* .location-search {
+  font-family: monospace;
+} */
+.bottomt {
+  font-family: Agipo;
+  font-size: 10px;
+  padding: 30px;
+}
+.numb {
+  font-size: 350px;
+}
+.city {
+  font-size: 35px;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin-left: 70px;
+  margin-bottom: 25px;
+}
+.condi {
+  font-size: 30px;
+  margin-left: 70px;
+}
+.winds {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.clear {
+  background-image: url(/images/sun.png);
+  background-repeat: no-repeat;
+  background-position: 620px 45px;
+  background-color: #fff4be;
+}
+
+.clouds {
+  background-image: url(/images/clouds.png);
+  background-repeat: no-repeat;
+  background-position: 620px 45px;
+  background-color: #b0b0b0;
+}
+
+.thunderstorm {
+  background-image: url(/images/thunder.png);
+  background-repeat: no-repeat;
+  background-position: 620px 45px;
+}
+
+.rain {
+  background-image: url(/images/rain.png);
+  background-repeat: no-repeat;
+  background-position: 620px 45px;
+  background-color: #98cbff;
+}
+
+.haze {
+  background-image: url(/images/haze.png);
+  background-repeat: no-repeat;
+  background-position: 620px 45px;
+  background-color: #83afdb;
+}
+
+/* @keyframes clouds {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 500px;
+  }
+} */
+
+.clouds {
+  transition: all 0.5s ease-out;
+  /* animation: clouds 5s infinite; */
+}
+
+.rain {
+  transition: all 0.5s ease-out;
+}
+
+.clear {
+  transition: all 0.5s ease-out;
+}
+
+.thunderstorm {
+  transition: all 0.5s ease-out;
+}
+
+.haze {
+  transition: all 0.5s ease-out;
+}

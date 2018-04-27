@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Weather</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <div class="sans-serif">
+
+    <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+    <div id="error" class="dn bg-pink white pa3 fixed top-0 w-100">
+      Sorry, we couldn't find that city.
+    </div>
+
+    <!-- Search Box -->
+    <form id="location-search">
+      <div class="bottomt">
+        <h1 class="bg-washed-green pa2 ml4 gray fixed bottom-0 w-90">
+          <span class="weathert ml2 pr3">
+            WEATHER FOR:
+          </span>
+          <input type="text" id="area" value="Boston">
+        </h1>
+      </div>
+    </form>
+
+    <!-- Content -->
+    <div class="flex flex-wrap ml5 w-50">
+
+      <!-- <div class="w-100 w-50-m w-third-l"> -->
+      <!-- <h2>Temperature</h2> -->
+      <div class="numb">
+        <div> <span id="temp">
+        </span>˚</div>
+        <!-- <p>Max Temp: <span id="temp-max"></span></p>
+        <p>Min Temp: <span id="temp-min"></span></p> -->
+      </div>
+    </div>
+
+    <!-- <div class="w-100 w-50-m w-third-l"> -->
+    <!-- <h2>Location</h2> -->
+    <div class="city">
+      <span id="location-name"></span>
+      <!-- <p>Country: <span id="country"></span></p> -->
+    </div>
+
+    <!-- <div class="w-100 w-50-m w-third-l"> -->
+    <!-- <h2>Weather</h2> -->
+    <div class="condi">
+      Condition: <span id="condition"></span>
+      <!-- <p>Desription: <span id="condition-description"></span></p> -->
+      <div class=winds>Wind Speed: <span id="wind-speed"></span>mph</p>
+      </div>
+    </div>
+
+    <!-- Site JavaScript -->
+    <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+    <script src="/javascript/main.js" charset="utf-8"></script>
+    <script src="/javascript/weather.js" charset="utf-8"></script>
+</body>
+
+</html>
